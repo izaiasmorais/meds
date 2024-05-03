@@ -1,3 +1,4 @@
+import { Separator } from "@/components/ui/separator";
 import { meds } from "@/database/meds";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
@@ -9,7 +10,7 @@ interface MedicamentoProps {
 }
 
 export default function Medicamento({ params }: MedicamentoProps) {
-	const med = meds.find((med) => med.C.toLocaleLowerCase() === params.slug);
+	const med = meds.find((med) => med.NOME.toLocaleLowerCase() === params.slug);
 
 	if (!med) {
 		return (
@@ -30,19 +31,22 @@ export default function Medicamento({ params }: MedicamentoProps) {
 				<Link href={"/"}>
 					<ArrowLeft size={20} />
 				</Link>
-				<h1 className="text-2xl font-medium">{med.C}</h1>
+				<h1 className="text-2xl font-medium">{med.NOME}</h1>
 			</div>
 
 			<div className="w-full pt-4 space-y-4">
 				{medArray.map(({ key, value }) => {
 					return (
-						<div key={key}>
-							<strong className="text-lg tracking-wide">{key}: </strong>
-							<br />
-							<ul className="list-disc pl-[1.25rem]">
-								<li>{value}</li>
-							</ul>
-						</div>
+						<>
+							<div key={key}>
+								<strong className="text-lg tracking-wide">{key}: </strong>
+								<br />
+								<ul className="list-disc pl-[1.25rem]">
+									<li>{value}</li>
+								</ul>
+							</div>
+							<Separator />
+						</>
 					);
 				})}
 			</div>

@@ -1,6 +1,6 @@
 export const meds = [
 	{
-		C: "Aciclovir",
+		NOME: "Aciclovir",
 		INDICAÇÃO:
 			"Herpes genital, varicela zoster, Infecções graves por HSV/VZV (por exemplo, infecções do SNC)",
 		APRESENTAÇÃO: "COMP 200 mg                                FR - AMP 250 mg",
@@ -28,7 +28,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Ampicilina-sulbactam",
+		NOME: "Ampicilina-sulbactam",
 		INDICAÇÃO:
 			"Infecções do trato respiratório inferior e superior incluindo sinusite,\notite média e epiglotite; pneumonias bacterianas; infecções do trato urinário e pielonefrite; infecções intraabdominais incluindo peritonite, colecistite, endometrite e celulite pélvica; sepse bacteriana; infecções da pele e\ntecidos moles, infecções do osso e articulações e infecções gonocócicas",
 		APRESENTAÇÃO: "FR - AMP 1,5 g e 3,0 g",
@@ -56,7 +56,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Amoxicilina",
+		NOME: "Amoxicilina",
 		INDICAÇÃO:
 			"Infecções de ouvido, nariz e garganta (faringite/amigdalite, otite média), Erradicação do Helicobacter pylori, Infecções do trato respiratório inferior (incluindo pneumonia), Rinossinusite bacteriana aguda, Infecções da pele e da estrutura da pele, Infecção do trato urinário",
 		APRESENTAÇÃO: "COMP 500 mg",
@@ -85,7 +85,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Amoxicilina + Clavulanato",
+		NOME: "Amoxicilina + Clavulanato",
 		INDICAÇÃO:
 			"Infecções do trato respiratório superior,  infecções do trato respiratório inferior,  infecções do trato geniturinário, infecções de pele e tecidos moles,  infecções de ossos e articulações",
 		APRESENTAÇÃO:
@@ -116,7 +116,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Azitromicina",
+		NOME: "Azitromicina",
 		INDICAÇÃO:
 			"Pneumonia adquirida na comunidade causada por organismos susceptíveis, incluindo Legionella pneumophila. A azitromicina di-hidratada também é indicada para o tratamento de doença inflamatória pélvica causada por organismos susceptíveis (Chlamydia trachomatis, Neisseria gonorrhoeae, Mycoplasma hominis), conjuntivite bacteriana, infecções bacterianas do trato respiratório superior, complexo Mycobacterium avium disseminado (MAC), coqueluche, clamídia, DSTs gonocócicas e doença da arranhadura do gato.",
 		APRESENTAÇÃO:
@@ -144,7 +144,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Anfotericina B (desoxicolato)",
+		NOME: "Anfotericina B (desoxicolato)",
 		INDICAÇÃO:
 			"Infecçoes fungicas invasivas, leishmaniose. Não deve ser usado no tratamento de infecçoes fungicas não invasivas.",
 		APRESENTAÇÃO: "FR-AMP 50 mg",
@@ -173,7 +173,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Anfotericina B (lipossomal)",
+		NOME: "Anfotericina B (lipossomal)",
 		INDICAÇÃO: "",
 		APRESENTAÇÃO: "FR-AMP 50 mg",
 		DILUIÇÃO:
@@ -200,7 +200,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Anfotericina B complexo lipídico",
+		NOME: "Anfotericina B complexo lipídico",
 		INDICAÇÃO: "",
 		APRESENTAÇÃO: "FR-AMP 100mg/20ml",
 		DILUIÇÃO: "Diluição: S.G 5% para obter-se a concentração de 1mg/ml",
@@ -226,7 +226,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Anidulafungina",
+		NOME: "Anidulafungina",
 		INDICAÇÃO:
 			"Candidíase esofágica (CE), candidemia e outras infecções complicadas por Candida",
 		APRESENTAÇÃO: "FR-AMP 100 mg",
@@ -254,7 +254,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Amicacina",
+		NOME: "Amicacina",
 		INDICAÇÃO:
 			"Infecções por bacilos gram-negativos aeróbios, incluindo P. aeruginosa , e micobactérias suscetíveis.",
 		APRESENTAÇÃO:
@@ -282,7 +282,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Aztreonam",
+		NOME: "Aztreonam",
 		INDICAÇÃO:
 			"Infecções no trato urinário; bacteremia; Infecções respiratórias do trato inferior; Infecções ósseas e articulares; Infecções no SNC por N. meningites; Infecções no trato gastrointestinal",
 		APRESENTAÇÃO: "FR-AMP 1G",
@@ -310,7 +310,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Benzilpenicilina benzatina",
+		NOME: "Benzilpenicilina benzatina",
 		INDICAÇÃO:
 			"Infecções estreptocócicas (grupo A, sem bacteremia); Infecções leves e moderadas do trato respiratório superior e da pele; Infecções venéreas: sífilis, bouba, bejel (sífilis endêmica) e pinta; Profilaxia da glomerulonefrite aguda e doença reumática; Profilaxia de recorrências da febre reumática e/ou coreia de Sydenham.",
 		APRESENTAÇÃO: "FR-AMP 1.200.000 UI",
@@ -338,7 +338,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Cefalexina",
+		NOME: "Cefalexina",
 		INDICAÇÃO:
 			"Sinusites bacterianas; Infecções do trato respiratório; Otite média; Infecções da pele e tecidos moles; Infecções ósseas; Infecções do trato geniturinário incluindo prostatite aguda; Infecções dentárias.",
 		APRESENTAÇÃO:
@@ -367,7 +367,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Cefalotina",
+		NOME: "Cefalotina",
 		INDICAÇÃO:
 			"Infecções do trato respiratório; Infecções da pele e tecidos moles; Infecções do trato geniturinário; Septicemia; Infecções gastrintestinais; Meningite; Infecções ósseas e articulares; Profilaxia cirúrgica.",
 		APRESENTAÇÃO: "FR-AMP 1 g",
@@ -396,7 +396,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Cefazolina",
+		NOME: "Cefazolina",
 		INDICAÇÃO:
 			"Infecções do Trato Respiratório; Infecções do Trato Urinário; Infecções da Pele e Estruturas da Pele; Infecções do Trato Biliar; Infecções Ósseas e Articulares; Septicemia; Endocardites causadas por Staphylococcus aureus (penicilino-suscetíveis e penicilino-resistentes) e estreptococos beta-hemolíticos do grupo A; Profilaxia Cirúrgica.",
 		APRESENTAÇÃO: "FR-AMP 1 g",
@@ -425,7 +425,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Cefepima",
+		NOME: "Cefepima",
 		INDICAÇÃO:
 			"Infecção de Corrente Sanguínea; fibrose cística (exarcebação pulmonar aguda); Infecção de pé diabético; Infecção intra-abdominal; Abcesso intracraniano; Meningite bacteriana; Enterocolite neutropênica; Neutropenia febril; Osteomielite; Peritonite; Infecção articular de prótese; Sepse e choque séptico; Artrite séptica; Infecção de pele e tecidos moles; ITU complicada.",
 		APRESENTAÇÃO: "FR-AMP 1 g e FR-AMP 2 g",
@@ -454,7 +454,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Cefoxitina",
+		NOME: "Cefoxitina",
 		INDICAÇÃO:
 			"Infecção de Corrente Sanguínea; Infecções ósseas e articulares; Infecções ginecológicas; Infecções do trato respiratório inferior; Septicemia; Infecções de pele e tecidos moles; ITU; Doença inflamatória pélvica; Profilaxia cirúrgica.",
 		APRESENTAÇÃO: "FR-AMP 1 g",
@@ -483,7 +483,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Ceftazidima",
+		NOME: "Ceftazidima",
 		INDICAÇÃO:
 			"Infecção de Corrente Sanguínea; Infecções ósseas e articulares; Infecções do SNC; Infecções ginecológicas; Infecção intra-abdominal; Infecções do trato respiratório inferior; Infecções de pele e tecidos moles; ITU.",
 		APRESENTAÇÃO: "FR-AMP 1 g",
@@ -512,7 +512,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Ceftazidima/Avibactam",
+		NOME: "Ceftazidima/Avibactam",
 		INDICAÇÃO:
 			"Infecções intra-abdominais; Infecção de Trato Urinário Complicada; Pneumonia adquirida no hospital ou associada a ventilação mecânica;Infecção por Stenotrophomonas maltophilia , multirresistente.",
 		APRESENTAÇÃO: "FR-AMP 2,5 g",
@@ -541,7 +541,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Ceftriaxona",
+		NOME: "Ceftriaxona",
 		INDICAÇÃO:
 			"Sepse; Meningite; Borreliose de Lyme disseminada (estágios iniciais e tardios da doença) (doença de Lyme); Infecções intra-abdominais (peritonites, infecções do trato gastrintestinal e biliar); Infecções ósseas, articulares, tecidos moles, pele e feridas; Infecções em pacientes imunocomprometidos; Infecções renais e do trato urinário Infecções do trato respiratório, particularmente pneumonia e infecções otorrinolaringológicas; Infecções genitais, inclusive gonorreia; Profilaxia perioperatória de infecções.",
 		APRESENTAÇÃO: "FR-AMP 500 mg; FR-AMP 1 g",
@@ -568,7 +568,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Cefuroxima",
+		NOME: "Cefuroxima",
 		INDICAÇÃO:
 			"- Infecções do trato respiratório, por exemplo: exacerbações agudas de bronquite crônica, bronquiectasia infectada, pneumonia \nbacteriana, abscesso pulmonar e infecções pós-operatórias do tórax. \n- Infecções do ouvido, nariz e garganta, por exemplo: sinusite, amigdalite, faringite e otite média. - Infecções do trato urinário, por exemplo: pielonefrite aguda e crônica, cistite e bacteriúria assintomática. \n- Infecções de tecidos moles, por exemplo: celulite, erisipela e infecções de feridas. \n- Infecções de juntas e ossos, por exemplo: osteomielite e artrite séptica. \n- Infecções ginecológicas, obstétricas e doenças inflamatórias pélvicas. \n- Gonorreia, particularmente quando a penicilina não é adequada. \n- Outras infecções, incluindo sepse, meningite e peritonite. Profilaxia contra infecção nas cirurgias abdominal, pélvica, ortopédica, cardíaca, pulmonar, esofágica e vascular, nas quais existe \nelevado risco de infecção.",
 		APRESENTAÇÃO: "FR-AMP 750mg",
@@ -595,7 +595,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Ciprofloxacino",
+		NOME: "Ciprofloxacino",
 		INDICAÇÃO:
 			"Infecções do trato urinário, infeccções do olho, ouvido médio, orgãos reprodutores, pele e tecidos moles, septicemia, profilaxia em pacientes imunocomprometidos,  infecções ósseas e articulares e diarreia infecciosa causada por organismos suscetíveis.\nFrequentemente usado em combinação com metronidazol para tratar infecções intra-abdominais ou combinado com uma penicilina de espectro estendido em pacientes neutropênicos febris",
 		APRESENTAÇÃO: "Comp 500mg; Bolsa 2mg/mL (100 ou 200mL)",
@@ -621,7 +621,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Claritromicina",
+		NOME: "Claritromicina",
 		INDICAÇÃO:
 			"Terapia alternativa para infecções do trato respiratório e da pele, em combinação para algumas infecções micobacterianas e em regimes de combinação para erradicar infecções por H. pylori",
 		APRESENTAÇÃO:
@@ -649,7 +649,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Clindamicina",
+		NOME: "Clindamicina",
 		INDICAÇÃO:
 			"Tratamento de infecções de vias respiratórias superiores e inferiores, infecções de pele e tecidos moles, infecções dentárias, infecções de pelve e trato genital feminino, infecções ósseas e articulares. Tratamento de infecções bacterianas anaeróbicas susceptíveis, e por cepas bacterianas aeróbias Gram-positivas como Streptococcus, Pneumococcus e Staphylococcus. Não é mais recomendada para o tratamento de infecções intra-abdominais.",
 		APRESENTAÇÃO: "Cápsula: 300mg;  injetável: 600mg - 150mg/mL (ampola 4mL)",
@@ -675,7 +675,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Daptomicina",
+		NOME: "Daptomicina",
 		INDICAÇÃO:
 			"Infecções complicadas de pele e tecidos moles causadas por cocos gram-positivos, endocardite e bacteremia por S. aureus. Terapia alternativa para genótipos resistentes a drogas, é ativo contra MRSA e VRE. Não use para pneumonia primária: inativado por surfactante pulmonar",
 		APRESENTAÇÃO: "FR-AMP 350 e 500 mg (Accord Farmacêutica)",
@@ -703,7 +703,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Ertapenem",
+		NOME: "Ertapenem",
 		INDICAÇÃO:
 			"​Tratamento das seguintes infecções moderadas a graves: Infecções intra-abdominais complicadas, infecções da pele e estrutura da pele (incluindo infecções do pé diabético sem osteomielite), infecção do trato urinário complicadas (incluindo pielonefrite), infecções pélvicas (incluindo pós-parto endomiometrite, aborto séptico, infecções ginecológicas pós-cirúrgicas), septicemia bacteriana e pneumonia comunitária",
 		APRESENTAÇÃO: "FR AMP 1g",
@@ -730,7 +730,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Fluconazol",
+		NOME: "Fluconazol",
 		INDICAÇÃO:
 			"Tratamento de candidíase (esofágica, orofaríngea, peritoneal, urinária, vaginal); infecções sistêmicas por cândida (candidemia, candidíase disseminada, pneumonia); e meningite criptocócica; e profilaxia antifúngica em receptores de transplante alogênico de células hematopoiéticas. Candida krusei e Candida glabrata são resistentes ao Fluconazol. Pacientes com infecção por Candida e terapia prévia com triazol têm maior probabilidade de resistência ao Fluconazol (e outros triazol). Dose de fluconazol IV = dose oral devido à excelente biodisponibilidade.",
 		APRESENTAÇÃO: "Cápsula de 150 mg; Injetável: 2mg/mL, bolsa de 100mL",
@@ -759,7 +759,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "Ganciclovir",
+		NOME: "Ganciclovir",
 		INDICAÇÃO:
 			"Ganciclovir é usado para infecções por citomegalovírus (CMV), ou profilaxia de transplante (receptor), para prevenção de infecção por CMV.",
 		APRESENTAÇÃO: "FR-AMP 500mg; Bolsa 1mg/ml 0,1% 500ml",
@@ -789,7 +789,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Gentamicina",
+		NOME: "Gentamicina",
 		INDICAÇÃO:
 			"- septicemia, bacteremia (incluindo sepse neonatal);\n- infecções graves do Sistema Nervoso Central (SNC) (incluindo meningite);\n- infecção nos rins e trato geniturinário (incluindo infecções pélvicas);\n- infecções respiratórias;\n- infecções gastrintestinais;\n- infecções na pele, ossos ou tecidos moles (incluindo queimaduras e feridas infectadas);\n- infecções intra-abdominais (incluindo peritonite);\n- infecções oculares.",
 		APRESENTAÇÃO:
@@ -816,14 +816,14 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Imipenem + cilastatina",
+		NOME: "Imipenem + cilastatina",
 		INDICAÇÃO:
 			"Tratamento de trato respiratório inferior, infecções urinárias, intra-abdominais, ginecológicas, infecções dos osso e articulações, da pele da estrutura da pele, endocardite (causada por Staphylococcus aureus) e septicemia",
 		APRESENTAÇÃO: "FR-AMP 500 MG",
 		DILUIÇÃO: "Diluição: 100-250mL de SF e SG. Concentração máxima: 500mg/60mL",
 		DOSE: "500 mg IV a cada 6 horas OU 1 g IV a cada 8 horas",
 		"AJUSTE DE FUNÇÃO RENAL":
-			"CrCl 60-<90: 400-500 mg de 6/6h\nSusc intermediário: 750 mg de 8/8h\nCrCl 30-<60: 300 mg de 6/6h OU 500 mg 8/8h\nSusc intermediário: 500 mg de 6/6h\nCrCl 15-<30: 200 mg de 6/6h OU 500 mg de 12/12h\nIntermediário susc: 500 mg a cada 12h",
+			"CrCl 60-<90: 400-500 mg de 6/6h\nSusc intermediário: 750 mg de 8/8h\nCrCl 30-<60: 300 mg de 6/6h OU 500 mg 8/8h\nSusc intermediário: 500 mg de 6/6h\nCrCl 15-<30: 200 mg de 6/6h OU 500 mg de 12/12h\nIntermediário susNOME: 500 mg a cada 12h",
 		"VIA DE ADM": "EV",
 		CLASSE: "Carbapenêmico",
 		"MECANISMO DE AÇÃO": "Inibição sintese de parede celular",
@@ -842,7 +842,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Levofloxacino comp",
+		NOME: "Levofloxacino comp",
 		INDICAÇÃO:
 			"infecções do trato respiratório superior e inferior, infecções da pele e tecido subcutâneo, infecções do trato urinário, osteomielite",
 		APRESENTAÇÃO: "COMP 500mg",
@@ -869,7 +869,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Levofloxacino 5mg/ml",
+		NOME: "Levofloxacino 5mg/ml",
 		INDICAÇÃO:
 			"Tratamento de infecções do trato respiratório superior e inferior, infecções da pele e tecido subcutâneo, infecções do trato urinário, osteomielite",
 		APRESENTAÇÃO: "5 MG/ML BOLSA C/ 100 ML",
@@ -895,7 +895,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Linezolida",
+		NOME: "Linezolida",
 		INDICAÇÃO:
 			"​Tratamento de infecções resistentes à vancomicina Enterococcus faecium (VRE), pneumonia nosocomial causada por Staphylococcus aureus (incluindo o MRSA) ou Streptococcus pneumoniae (incluindo cepas multirresistentes [MDRSP]), infecções de pele e estrutura de pele complicada e não complicada (incluindo infecções do pé diabético sem concomitante osteomielite), e pneumonia comunitária causada por suscetíveis organismos gram-positivos.",
 		APRESENTAÇÃO: "Bolsa: 2 mg/mL- 300 mL; Comp 600 mg",
@@ -921,7 +921,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Meropenem",
+		NOME: "Meropenem",
 		INDICAÇÃO:
 			"Infecções intra-abdominais, meningite bacteriana em crianças com idade > 3 meses e infecções complicadas da pele/estrutura da pele",
 		APRESENTAÇÃO: "FR 1g",
@@ -948,7 +948,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Metronidazol",
+		NOME: "Metronidazol",
 		INDICAÇÃO:
 			"Profilaxia e tratamento das infecções causadas por bactérias anaeróbias; Giardíase; Amebíase; Tricomoníase; Vaginites por Gardnerella vaginallis.",
 		APRESENTAÇÃO:
@@ -976,7 +976,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Oxacilina",
+		NOME: "Oxacilina",
 		INDICAÇÃO:
 			"​Tratamento de infecções, tais como osteomielite, endocardite, septicemia e infecções do sistema nervoso central causada por cepas sensíveis de Staphylococcus",
 		APRESENTAÇÃO: "FR 500mg",
@@ -1003,7 +1003,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Penicilina G Cristalina",
+		NOME: "Penicilina G Cristalina",
 		INDICAÇÃO:
 			"Infecções estreptocócicas (grupo A, sem bacteremia); Infecções leves e moderadas do trato respiratório superior e da pele; Infecções venéreas: sífilis, bouba, bejel (sífilis endêmica) e pinta; Profilaxia da glomerulonefrite aguda e doença reumática; Profilaxia de recorrências da febre reumática e/ou coreia.",
 		APRESENTAÇÃO: "Fr-AMP 5.000.000 UI",
@@ -1032,7 +1032,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Piperacilina + Tazobactam",
+		NOME: "Piperacilina + Tazobactam",
 		INDICAÇÃO:
 			"Infecções do trato respiratório inferior; Infecções do trato urinário; Infecções intra-abdominais; Infecções da pele e tecidos moles; Sepse bacteriana; Infecções ginecológicas; Infecções neutropênicas febris; Infecções osteoarticulares; Infecções polimicrobianas (microrganismos Gram-positivos/Gram-negativos aeróbios e anaeróbios)",
 		APRESENTAÇÃO: "FRA 4g + 0,5g",
@@ -1060,7 +1060,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Polimixina B",
+		NOME: "Polimixina B",
 		INDICAÇÃO:
 			"Infecções agudas causadas por cepas susceptíveis de P. aeruginosa; Infecções do trato urinário, meninges e sangue; Infecções por cepas susceptíveis dos seguintes microrganismos, quando drogas com menor potencial tóxico são ineficazes ou contraindicadas: H. influenzae (no caso de meningite), E. coli (no caso de ITU), Aerobacter aerogenes e Klebsiella pneumoniae (no caso de bacteremias).",
 		APRESENTAÇÃO: "FR - AMP 500.000 UI",
@@ -1087,7 +1087,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Jesyvan",
 	},
 	{
-		C: "Sulfametoxazol / Trimetropima",
+		NOME: "Sulfametoxazol / Trimetropima",
 		INDICAÇÃO:
 			"Infecção de Trato Urinário; Uretrites, Pielonefrites, Prostatite, Infecções no Trato Respiratório; Otite média aguda; Pneumonia por Pneumocystis; Diarreia infecciosa; Shigelose; Infecção por mordedura; Brucelose; Celulite; Infecção do pé diabético; Infecção intra-abdominal; Infecções de Pele e Tecidos Moles; Profilaxia cirúrgica.",
 		APRESENTAÇÃO:
@@ -1116,7 +1116,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Teicoplanina",
+		NOME: "Teicoplanina",
 		INDICAÇÃO:
 			"Infecção complicada de pele e tecidos moles; Pneumonia; ITU complicada s e\nperitonite associada à diálise peritoneal crônica ambulatorial; Infecção óssea e articular; Endocardite; Infecção por C. difficile (V.O). s e\nperitonite associada à diálise peritoneal crônica ambulatorial.\nTambém está indicada no tratamento de infecções em pacientes alérgicos às penicilinas ou cefalosporinas.",
 		APRESENTAÇÃO: "FR - 200mg; FR - 400mg",
@@ -1144,7 +1144,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "Tigeciclina",
+		NOME: "Tigeciclina",
 		INDICAÇÃO:
 			"Tratamento de infecções complicadas da pele e da estrutura da pele causada por organismos sensíveis, incluindo Staphylococcus aureus resistente à meticilina e sensíveis à vancomicina; infecções complicadas intra-abdominais e pneumonia comunitária.",
 		APRESENTAÇÃO: "Fr - AMP 50MG",
@@ -1171,7 +1171,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Luany",
 	},
 	{
-		C: "Vancomicina",
+		NOME: "Vancomicina",
 		INDICAÇÃO:
 			"A vancomicina é um antibiótico glicopeptídeo mais frequentemente usado na forma parenteral para tratamento empírico ou específico de infecções por Staphylococcus aureus (MRSA) e Staphylococcus epidermidis (MRSE) resistentes à meticilina. No caso de alergia à penicilina, também pode ser usado para Staphylococcus suscetível. A formulação oral é a terapia preferida para colite grave por C. difficile.",
 		APRESENTAÇÃO: "FR - 500 mg",
@@ -1199,7 +1199,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "Voriconazol",
+		NOME: "Voriconazol",
 		INDICAÇÃO: "",
 		APRESENTAÇÃO: "COMP 200mg",
 		DILUIÇÃO: "-",
@@ -1223,7 +1223,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "",
 	},
 	{
-		C: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
+		NOME: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
 		INDICAÇÃO:
 			"Tratamento da tuberculose latente ou ativa (em combinação); Profilaxia meningocócica (tratamento de portadores assintomáticos de Neisseria meningitidis; Anaplasmose sintomática; Infecção por Bartonela spp. Brucelose; Prurido colestático; Endocardite; Hidradenite supurativa, moderada a grave; Lepra; Infecção micobacteriana não tuberculosa.",
 		APRESENTAÇÃO: "RIFAMPICINA COMP 150 mg; Cápsula 300mg.",
@@ -1249,7 +1249,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
+		NOME: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
 		INDICAÇÃO: "Tratamento de tuberculosa ativa ou latente.",
 		APRESENTAÇÃO: "ISONIAZIDA COMP 75 mg",
 		DILUIÇÃO: "-",
@@ -1276,7 +1276,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
+		NOME: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
 		INDICAÇÃO: "Tratamento das diversas formas de Tuberculose",
 		APRESENTAÇÃO: "PIRAZINAMIDA COMP 400 mg",
 		DILUIÇÃO: "-",
@@ -1303,7 +1303,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
+		NOME: "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL",
 		INDICAÇÃO:
 			"Tratamento da tuberculose pulmonar em combinação com outros agentes antituberculose.",
 		APRESENTAÇÃO: "ETAMBUTOL COMP 275 mg",
@@ -1331,7 +1331,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "DAPSONA",
+		NOME: "DAPSONA",
 		INDICAÇÃO:
 			"Hanseníase; Pneumonia por Pneumocystis carinii; profilaxia de toxoplasmose; Dermatite herpetiforme bolhosa",
 		APRESENTAÇÃO: "COMP 100 mg",
@@ -1359,7 +1359,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "Naara",
 	},
 	{
-		C: "CLOFAZIMINA",
+		NOME: "CLOFAZIMINA",
 		INDICAÇÃO:
 			"Indivíduos que apresentem um ou mais dos sinais cardinais, análise laboratorial ou\ndermatológica e/ou biópsia positivos para o diagnóstico de Hanseníase e que necessitam de\npoliquimioterapia (PQT)",
 		APRESENTAÇÃO: "COMP 100 mg ou 50 mg",
@@ -1386,7 +1386,7 @@ export const meds = [
 		"Revisão 03 (extensionistas)": "João",
 	},
 	{
-		C: "OSELTAMIVIR",
+		NOME: "OSELTAMIVIR",
 		INDICAÇÃO: "",
 		APRESENTAÇÃO: "CÁPSULA 30 mg e 75 mg",
 		DILUIÇÃO: "-",

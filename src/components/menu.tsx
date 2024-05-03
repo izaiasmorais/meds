@@ -1,3 +1,4 @@
+"use client";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -7,8 +8,11 @@ import {
 import { NavItem } from "./nav-item";
 import { MenuIcon, Pill, Settings, Star } from "lucide-react";
 import { Button } from "./ui/button";
+import { usePathname } from "next/navigation";
 
 export function Menu() {
+	const pathname = usePathname();
+
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
@@ -17,28 +21,33 @@ export function Menu() {
 				</Button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent>
-				<DropdownMenuItem>
-					<NavItem
-						link="/"
-						name="Medicamentos"
-						icon={<Pill size={20} />}
-						isActive
-					/>
+				<DropdownMenuItem
+					className={pathname.endsWith("/") ? "bg-accent md:bg-inherit" : ""}
+				>
+					<NavItem link="/" name="Medicamentos" icon={<Pill size={20} />} />
 				</DropdownMenuItem>
-				<DropdownMenuItem>
+
+				<DropdownMenuItem
+					className={
+						pathname.endsWith("/favoritos") ? "bg-accent md:bg-inherit" : ""
+					}
+				>
 					<NavItem
 						link="/favoritos"
 						name="Favoritos"
 						icon={<Star size={20} />}
-						isActive={false}
 					/>
 				</DropdownMenuItem>
-				<DropdownMenuItem>
+
+				<DropdownMenuItem
+					className={
+						pathname.endsWith("/configuracoes") ? "bg-accent md:bg-inherit" : ""
+					}
+				>
 					<NavItem
 						link="/configuracoes"
 						name="Configurações"
 						icon={<Settings size={20} />}
-						isActive={false}
 					/>
 				</DropdownMenuItem>
 			</DropdownMenuContent>

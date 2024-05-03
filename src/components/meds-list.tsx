@@ -32,13 +32,13 @@ export function MedsList() {
 				{paginatedMeds.map((med, i) => {
 					return (
 						<Link
-							href={`/medicamento/${med.C.toLocaleLowerCase()}`}
+							href={`/medicamento/${med.NOME.toLocaleLowerCase()}`}
 							key={i}
 							className="flex w-full justify-between items-center px-4 py-2 rounded-md bg-white
 					border border-muted-foreground/20 cursor-pointer hover:bg-white/80 transition-colors
 					duration-300"
 						>
-							<p className=" md:text-lg">{med.C}</p>
+							<p className=" md:text-lg">{med.NOME}</p>
 							<ChevronRight size={20} />
 						</Link>
 					);
