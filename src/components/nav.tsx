@@ -4,9 +4,20 @@ import { Pill, Settings, Star } from "lucide-react";
 export function MenuBar() {
 	return (
 		<nav className="flex items-center gap-2">
-			<NavItem name="Medicamentos" icon={<Pill size={20} />} isActive />
-			<NavItem name="Favoritos" icon={<Star size={20} />} isActive={false} />
 			<NavItem
+				link="/"
+				name="Medicamentos"
+				icon={<Pill size={20} />}
+				isActive
+			/>
+			<NavItem
+				link="/favoritos"
+				name="Favoritos"
+				icon={<Star size={20} />}
+				isActive={false}
+			/>
+			<NavItem
+				link="/configuracoes"
 				name="Configurações"
 				icon={<Settings size={20} />}
 				isActive={false}

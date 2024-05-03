@@ -18,10 +18,16 @@ export function Menu() {
 			</DropdownMenuTrigger>
 			<DropdownMenuContent>
 				<DropdownMenuItem>
-					<NavItem name="Medicamentos" icon={<Pill size={20} />} isActive />
+					<NavItem
+						link="/"
+						name="Medicamentos"
+						icon={<Pill size={20} />}
+						isActive
+					/>
 				</DropdownMenuItem>
 				<DropdownMenuItem>
 					<NavItem
+						link="/favoritos"
 						name="Favoritos"
 						icon={<Star size={20} />}
 						isActive={false}
@@ -29,6 +35,7 @@ export function Menu() {
 				</DropdownMenuItem>
 				<DropdownMenuItem>
 					<NavItem
+						link="/configuracoes"
 						name="Configurações"
 						icon={<Settings size={20} />}
 						isActive={false}

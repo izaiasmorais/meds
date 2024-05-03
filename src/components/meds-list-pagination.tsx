@@ -41,6 +41,7 @@ export function MedsListPagination({
 								isActive={index + 1 === page}
 								href="#"
 								onClick={() => goToPage(index + 1)}
+								className="bg-white hover:bg-white/80"
 							>
 								{index + 1}
 							</PaginationLink>
