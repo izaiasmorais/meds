@@ -2,6 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import { meds } from "@/database/meds";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import slugify from "react-slugify";
 
 interface MedicamentoProps {
 	params: {
@@ -10,7 +11,7 @@ interface MedicamentoProps {
 }
 
 export default function Medicamento({ params }: MedicamentoProps) {
-	const med = meds[parseInt(params.slug)];
+	const med = meds.find((med) => slugify(med.NOME) === params.slug);
 
 	if (!med) {
 		return (

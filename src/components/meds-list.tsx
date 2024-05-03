@@ -4,6 +4,7 @@ import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { MedsListPagination } from "./meds-list-pagination";
 import Link from "next/link";
+import slugify from "react-slugify";
 
 export function MedsList() {
 	const [page, setPage] = useState(1);
@@ -32,7 +33,7 @@ export function MedsList() {
 				{paginatedMeds.map((med, i) => {
 					return (
 						<Link
-							href={`/medicamento/${i}`}
+							href={`/medicamento/${slugify(med.NOME)}`}
 							key={i}
 							className="flex w-full justify-between items-center px-4 py-2 rounded-md bg-white
 					border border-muted-foreground/20 cursor-pointer hover:bg-white/80 transition-colors
