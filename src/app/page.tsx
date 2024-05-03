@@ -1,4 +1,5 @@
 import { MedsList } from "@/components/meds-list";
+import { Menu } from "@/components/menu";
 import { MenuBar } from "@/components/nav";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -9,16 +10,25 @@ export default function Home() {
 			<header className="max-w-[1200px] mx-auto flex items-center justify-between py-6">
 				<h1 className="text-2xl font-medium">Meds</h1>
 
-				<MenuBar />
+				<div className="hidden md:flex">
+					<MenuBar />
+				</div>
+
+				<div className="flex md:hidden">
+					<Menu />
+				</div>
 			</header>
 
 			<Separator />
 
 			<div className="max-w-[1200px] mx-auto py-6">
-				<div className="w-full flex items-center justify-between">
+				<div className="w-full flex flex-wrap items-center justify-between gap-2">
 					<h1 className="text-2xl font-medium">Medicamentos</h1>
 
-					<Input placeholder="Pesquisar Medicamento..." className="w-[300px]" />
+					<Input
+						placeholder="Pesquisar Medicamento..."
+						className="w-full md:w-[300px]"
+					/>
 				</div>
 			</div>
 
