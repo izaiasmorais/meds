@@ -10,7 +10,7 @@ interface MedicamentoProps {
 }
 
 export default function Medicamento({ params }: MedicamentoProps) {
-	const med = meds.find((med) => med.NOME.toLocaleLowerCase() === params.slug);
+	const med = meds[parseInt(params.slug)];
 
 	if (!med) {
 		return (
@@ -39,7 +39,7 @@ export default function Medicamento({ params }: MedicamentoProps) {
 					return (
 						<>
 							<div key={key}>
-								<strong className="text-lg tracking-wide">{key}: </strong>
+								<strong className="text-base tracking-wide">{key}: </strong>
 								<br />
 								<ul className="list-disc pl-[1.25rem]">
 									<li>{value}</li>

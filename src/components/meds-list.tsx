@@ -32,7 +32,7 @@ export function MedsList() {
 				{paginatedMeds.map((med, i) => {
 					return (
 						<Link
-							href={`/medicamento/${med.NOME.toLocaleLowerCase()}`}
+							href={`/medicamento/${i}`}
 							key={i}
 							className="flex w-full justify-between items-center px-4 py-2 rounded-md bg-white
 					border border-muted-foreground/20 cursor-pointer hover:bg-white/80 transition-colors
