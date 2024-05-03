@@ -36,7 +36,7 @@ export function MedsListPagination({
 
 				{Array.from({ length: totalPages }).map((_, index) => {
 					return (
-						<PaginationItem>
+						<PaginationItem key={index}>
 							<PaginationLink
 								isActive={index + 1 === page}
 								href="#"
