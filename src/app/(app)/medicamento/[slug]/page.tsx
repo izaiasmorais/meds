@@ -37,18 +37,25 @@ export default function Medicamento({ params }: MedicamentoProps) {
 
 			<div className="w-full pt-4 space-y-4">
 				{medArray.map(({ key, value }) => {
-					return (
-						<>
-							<div key={key}>
-								<strong className="text-base tracking-wide">{key}: </strong>
-								<br />
-								<ul className="list-disc pl-[1.25rem]">
-									<li>{value}</li>
-								</ul>
-							</div>
-							<Separator />
-						</>
-					);
+					if (
+						key !== "RESPONSAVEL" &&
+						key !== "revisão 1" &&
+						key !== "revisão 2" &&
+						key !== "Revisão 03 (extensionistas)"
+					) {
+						return (
+							<>
+								<div key={key}>
+									<strong className="text-base tracking-wide">{key}: </strong>
+									<br />
+									<ul className="list-disc pl-[1.25rem]">
+										<li>{value}</li>
+									</ul>
+								</div>
+								<Separator />
+							</>
+						);
+					}
 				})}
 			</div>
 		</div>
