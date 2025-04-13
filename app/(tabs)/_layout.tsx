@@ -1,20 +1,20 @@
 import React from "react";
 import { Tabs, TabList, TabTrigger, TabSlot } from "expo-router/ui";
 import { Text } from "react-native";
-import Ionicons from "@expo/vector-icons/Ionicons";
 import { usePathname } from "expo-router";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function TabsLayout() {
 	const pathname = usePathname();
 	const isHomeActive = pathname === "/" || pathname === "/home";
-	const isFavoritesActive = pathname === "/favorites";
+	const isAboutActive = pathname === "/about";
 
 	return (
 		<Tabs>
 			<TabSlot />
 			<TabList
 				className="p-4 bg-white border-t border-gray-200 flex items-center
-			justify-around"
+			justify-around fixed bottom-0 left-0 right-0"
 			>
 				<TabTrigger
 					name="home"
@@ -30,16 +30,20 @@ export default function TabsLayout() {
 				</TabTrigger>
 
 				<TabTrigger
-					name="favorites"
-					href="/favorites"
+					name="about"
+					href="/about"
 					className="flex w-1/2 items-center flex-col"
 				>
 					<Ionicons
-						name={isFavoritesActive ? "star" : "star-outline"}
-						size={24}
+						name={
+							isAboutActive
+								? "information-circle"
+								: "information-circle-outline"
+						}
+						size={26}
 						color={"#1e293b"}
 					/>
-					<Text style={{ color: "#1e293b" }}>Favoritos</Text>
+					<Text style={{ color: "#1e293b" }}>Sobre</Text>
 				</TabTrigger>
 			</TabList>
 		</Tabs>
