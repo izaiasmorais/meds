@@ -1,4 +1,5 @@
 export interface Medicine {
+	id: string;
 	name: string;
 	indication: string;
 	presentation: string;
@@ -16,5 +17,4 @@ export interface Medicine {
 	vol: string;
 	lig: string;
 	actionSpectrum: string;
-	null: null;
 }

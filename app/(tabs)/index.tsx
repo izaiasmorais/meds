@@ -29,7 +29,7 @@ export default function Index() {
 					className="h-screen"
 					showsVerticalScrollIndicator={false}
 					renderItem={({ item }) => (
-						<Link href={`/medicine/${item.name}`} asChild>
+						<Link href={`/medicine/${item.id}`} asChild>
 							<TouchableOpacity
 								className="flex-row items-center justify-between px-4 rounded-lg py-3
 							hover:bg-slate-50/50 transition-all duration-300"
