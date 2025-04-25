@@ -30,7 +30,10 @@ export default function Index() {
 					showsVerticalScrollIndicator={false}
 					renderItem={({ item }) => (
 						<Link href={`/medicine/${item.name}`} asChild>
-							<TouchableOpacity className="flex-row items-center justify-between px-4 py-3">
+							<TouchableOpacity
+								className="flex-row items-center justify-between px-4 rounded-lg py-3
+							hover:bg-slate-50/50 transition-all duration-300"
+							>
 								<Text className="text-base">{item.name}</Text>
 								<Ionicons name="chevron-forward" size={16} color="#888" />
 							</TouchableOpacity>
