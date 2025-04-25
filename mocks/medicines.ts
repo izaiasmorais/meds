@@ -6,7 +6,7 @@ export const medicines: Medicine[] = [
 		name: "Aciclovir",
 		indication:
 			"Herpes genital, varicela zoster, Infecções graves por HSV/VZV (por exemplo, infecções do SNC)",
-		presentation: "COMP 200 mg                                FR - AMP 250 mg",
+		presentation: "COMP 200 mg FR, AMP 250 mg",
 		dilution:
 			"União química: reconstuição- 10 mL de água para injeção ou solução NaCl 0,9%   diluição- 100 mL de solução NaCl 0,9% (até 500 mg, para doses superiores utilizar em concentração de até 5 mg/mL).",
 		dose: "Herpes simples - 400 mg 8/8h VO; Herpes zoster - 800 mg VO 5x/dia,Infecções graves por HSV/VZV: 5-12,5 mg/kg EV 8/8h",
