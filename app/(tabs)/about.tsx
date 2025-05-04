@@ -17,7 +17,7 @@ export default function About() {
 
 					<View className="flex flex-col gap-2">
 						<Text className="font-medium">Versão</Text>
-						<Text className="text-slate-500">1.4.0</Text>
+						<Text className="text-slate-500">0.0.1</Text>
 					</View>
 				</View>
 			</View>
