@@ -15,7 +15,8 @@
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
-			}
+			},
+			"package": "com.izaias_lima.meds"
 		},
 		"web": {
 			"bundler": "metro",
@@ -36,6 +37,14 @@
 		],
 		"experiments": {
 			"typedRoutes": true
+		},
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "3953c6fd-0a7d-4be5-8b35-a023d7fa2540"
+			}
 		}
 	}
 }
